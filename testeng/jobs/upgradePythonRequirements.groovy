@@ -570,7 +570,7 @@ jobConfigs.each { jobConfig ->
                 remote {
                     url('https://github.com/edx/testeng-ci.git')
                 }
-                branch('master')
+                branch('bom-1950')
                 extensions {
                     cleanBeforeCheckout()
                     relativeTargetDirectory('testeng-ci')
